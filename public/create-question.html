@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./create-question.css" />
+    <title>Quick answer</title>
+  </head>
+
+  <body>
+    <h2>Ask community a Yes/No or Right/Wrong question!</h2>
+
+    <div id='error-message' ></div>
+
+    <form id = 'create-form' action="/create-question" method="POST">
+      <textarea id='content' class="input" rows="6" name='content'> 
+        
+      </textarea>
+      <div id='remainChar'>200/200 characters left</div>
+      <input type="submit" value="Send" />
+    </form>
+    <a href = '/'>Main page</a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src='./create-question.js'></script>
+
+  </body>
+</html>
