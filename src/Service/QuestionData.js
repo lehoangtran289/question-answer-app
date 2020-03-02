@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = "http://localhost:8080/api"
+const url = "https://immense-everglades-72777.herokuapp.com/api"
 
 
 class QuestionData {
